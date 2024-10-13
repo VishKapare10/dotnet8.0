@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/SessionDemo.styles.css" />
+</head>
+
+
+@{
+    ViewData["Title"] = "Session Demo";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/SessionDemo.styles.css" />
+</head>
+
+<body>
+    <h2>Session Demo</h2>
+
+    <form asp-action="SetSession" method="post">
+        <input type="text" name="value" placeholder="Enter a value" />
+        <button type="submit">Set Session</button>
+    </form>
+
+    <form asp-action="GetSession" method="get">
+        <button type="submit">Get Session</button>
+    </form>
+
+    @if (ViewBag.SessionValue != null)
+    {
+        <p>Session Value: @ViewBag.SessionValue</p>
+    }
+</body>
