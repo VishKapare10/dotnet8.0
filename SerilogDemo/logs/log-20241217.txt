@@ -1,0 +1,57 @@
+2024-12-17 17:23:32.354 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-17 17:23:32.479 +05:30 [DBG] Hosting starting
+2024-12-17 17:23:32.536 +05:30 [INF] Now listening on: http://localhost:5152
+2024-12-17 17:23:32.538 +05:30 [DBG] Loaded hosting startup assembly SerilogDemo
+2024-12-17 17:23:32.541 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-17 17:23:32.543 +05:30 [INF] Hosting environment: Development
+2024-12-17 17:23:32.544 +05:30 [INF] Content root path: C:\Aug'24\dotnet8.0\SerilogDemo
+2024-12-17 17:23:32.546 +05:30 [DBG] Hosting started
+2024-12-17 17:23:43.063 +05:30 [DBG] Connection id "0HN8UI5Q8EONP" accepted.
+2024-12-17 17:23:43.066 +05:30 [DBG] Connection id "0HN8UI5Q8EONP" started.
+2024-12-17 17:23:43.074 +05:30 [DBG] Connection id "0HN8UI5Q8EONQ" accepted.
+2024-12-17 17:23:43.077 +05:30 [DBG] Connection id "0HN8UI5Q8EONQ" started.
+2024-12-17 17:23:43.129 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5152/weatherforecast - null null
+2024-12-17 17:23:43.142 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-17 17:23:43.186 +05:30 [DBG] 1 candidate(s) found for the request path '/weatherforecast'
+2024-12-17 17:23:43.193 +05:30 [DBG] Endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)' with route pattern 'WeatherForecast' is valid for the request path '/weatherforecast'
+2024-12-17 17:23:43.198 +05:30 [DBG] Request matched endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)'
+2024-12-17 17:23:43.207 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-12-17 17:23:43.209 +05:30 [INF] Executing endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)'
+2024-12-17 17:23:43.249 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] Get() on controller SerilogDemo.Controllers.WeatherForecastController (SerilogDemo).
+2024-12-17 17:23:43.257 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-17 17:23:43.260 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-17 17:23:43.266 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-12-17 17:23:43.269 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-17 17:23:43.271 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-12-17 17:23:43.275 +05:30 [DBG] Executing controller factory for controller SerilogDemo.Controllers.WeatherForecastController (SerilogDemo)
+2024-12-17 17:23:43.280 +05:30 [DBG] Executed controller factory for controller SerilogDemo.Controllers.WeatherForecastController (SerilogDemo)
+2024-12-17 17:23:43.282 +05:30 [INF] Handling GET request for weather forecast.
+2024-12-17 17:23:43.283 +05:30 [WRN] This is a warning example.
+2024-12-17 17:23:43.285 +05:30 [ERR] An error occurred while processing the request.
+System.InvalidOperationException: Something went wrong.
+   at SerilogDemo.Controllers.WeatherForecastController.Get() in C:\Aug'24\dotnet8.0\SerilogDemo\WeatherForecastController.cs:line 25
+2024-12-17 17:23:43.308 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-17 17:23:43.342 +05:30 [DBG] No information found on request to perform content negotiation.
+2024-12-17 17:23:43.346 +05:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-17 17:23:43.353 +05:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-17 17:23:43.360 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-17 17:23:43.366 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String[]'.
+2024-12-17 17:23:43.474 +05:30 [INF] Executed action SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo) in 190.3706ms
+2024-12-17 17:23:43.493 +05:30 [INF] Executed endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)'
+2024-12-17 17:23:43.497 +05:30 [DBG] Connection id "0HN8UI5Q8EONQ" completed keep alive response.
+2024-12-17 17:23:43.519 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5152/weatherforecast - 200 null application/json; charset=utf-8 393.0699ms
+2024-12-17 17:23:43.543 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5152/favicon.ico - null null
+2024-12-17 17:23:43.553 +05:30 [DBG] No candidates found for the request path '/favicon.ico'
+2024-12-17 17:23:43.556 +05:30 [DBG] Request did not match any endpoints
+2024-12-17 17:23:43.560 +05:30 [DBG] Connection id "0HN8UI5Q8EONQ" completed keep alive response.
+2024-12-17 17:23:43.567 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5152/favicon.ico - 404 0 null 24.7014ms
+2024-12-17 17:23:43.581 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5152/favicon.ico, Response status code: 404
+2024-12-17 17:24:04.764 +05:30 [INF] Application is shutting down...
+2024-12-17 17:24:04.767 +05:30 [DBG] Hosting stopping
+2024-12-17 17:24:04.802 +05:30 [DBG] Connection id "0HN8UI5Q8EONP" disconnecting.
+2024-12-17 17:24:04.806 +05:30 [DBG] Connection id "0HN8UI5Q8EONQ" disconnecting.
+2024-12-17 17:24:04.857 +05:30 [DBG] Connection id "0HN8UI5Q8EONQ" stopped.
+2024-12-17 17:24:04.857 +05:30 [DBG] Connection id "0HN8UI5Q8EONP" stopped.
+2024-12-17 17:24:04.866 +05:30 [DBG] Connection id "0HN8UI5Q8EONP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-17 17:24:04.869 +05:30 [DBG] Connection id "0HN8UI5Q8EONQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-17 17:24:04.881 +05:30 [DBG] Hosting stopped
