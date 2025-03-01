@@ -1,0 +1,17 @@
+C:\Aug'24\ApiFilterDemo\bin\Debug\net8.0\ApiFilterDemo.exe
+C:\Aug'24\ApiFilterDemo\bin\Debug\net8.0\ApiFilterDemo.deps.json
+C:\Aug'24\ApiFilterDemo\bin\Debug\net8.0\ApiFilterDemo.runtimeconfig.json
+C:\Aug'24\ApiFilterDemo\bin\Debug\net8.0\ApiFilterDemo.dll
+C:\Aug'24\ApiFilterDemo\bin\Debug\net8.0\ApiFilterDemo.pdb
+C:\Aug'24\ApiFilterDemo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ApiFilterDemo.csproj.AssemblyReference.cache
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ApiFilterDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ApiFilterDemo.AssemblyInfoInputs.cache
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ApiFilterDemo.AssemblyInfo.cs
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ApiFilterDemo.csproj.CoreCompileInputs.cache
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ApiFilte.C1098557.Up2Date
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ApiFilterDemo.dll
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\refint\ApiFilterDemo.dll
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ApiFilterDemo.pdb
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ApiFilterDemo.genruntimeconfig.cache
+C:\Aug'24\ApiFilterDemo\obj\Debug\net8.0\ref\ApiFilterDemo.dll
